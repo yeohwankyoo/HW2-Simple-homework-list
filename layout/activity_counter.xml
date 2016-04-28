@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yeohwankyoo.hw2.Counter"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <EditText
+            android:id="@+id/Amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Total Amount"
+            android:textSize="20dp"
+            android:inputType="numberDecimal"
+            android:background="#fcf097" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+        <RadioGroup
+            android:id="@+id/TipType"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#fb7e49"
+            android:layout_weight="1"
+            >
+            <RadioButton
+                android:id="@+id/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="10%"
+                android:layout_weight="1"
+                android:onClick="onVisable"
+
+                >
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/fifteen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="15%"
+                android:layout_weight="1"
+                android:onClick="onVisable"
+                >
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/twenty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="20%"
+                android:layout_weight="1"
+                android:onClick="onVisable"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/others"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="others"
+                android:layout_weight="1"
+                android:onClick="onVisable"
+                >
+
+
+            </RadioButton>
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/option"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="others"
+            android:layout_weight="3"
+            android:inputType="numberDecimal"
+            android:background="#fb7e49"
+            android:visibility="invisible"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Tip"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="50dp"
+        android:text="Tip:"
+        android:background="#faceba"
+        />
+
+    <TextView
+        android:id="@+id/Total"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="50dp"
+        android:text="Total:"
+        android:background="#faceba" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:text="result"
+        android:onClick="onRadioButtonClicked"
+        />
+
+</LinearLayout>
+

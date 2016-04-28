@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yeohwankyoo.hw2.LoginActivity"
+    android:background="#65f804">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Homework"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:background="#fc0202" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:background="#fc0202" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:background="#ff9810" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#f9f10c">
+
+        <EditText
+            android:maxLength="1"
+            android:id="@+id/one"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:inputType="numberPassword"
+
+            />
+        <EditText
+            android:maxLength="1"
+            android:id="@+id/two"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:inputType="numberPassword"
+
+            />
+
+        <EditText
+            android:maxLength="1"
+            android:id="@+id/three"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:inputType="numberPassword"
+
+            />
+
+        <EditText
+            android:maxLength="1"
+            android:id="@+id/four"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:inputType="numberPassword"
+
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

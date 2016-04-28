@@ -1,0 +1,514 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:id="@+id/first"
+            android:layout_width="60dp"
+            android:layout_height="550dp"
+            android:textSize="10dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:text="시간"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#d8fcf6" />
+
+            <TextView
+                android:text="09:00-09:50"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#f5f89e" />
+            <TextView
+                android:text="10:00-10:50"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#f5f89e" />
+            <TextView
+                android:text="11:00-11:50"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#f5f89e" />
+            <TextView
+                android:text="12:00-12:50"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#f5f89e" />
+            <TextView
+                android:text="13:00-13:50"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#f5f89e" />
+            <TextView
+                android:text="14:00-14:50"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#f5f89e" />
+            <TextView
+                android:text="15:00-15:50"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+
+                android:background="#f5f89e" />
+            <TextView
+                android:text="16:00-16:50"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#f5f89e" />
+            <TextView
+                android:text="17:00-17:50"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#f5f89e" />
+            <TextView
+                android:text="18:00-18:50"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#f5f89e" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second"
+            android:layout_width="60dp"
+            android:layout_height="550dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:text="월요일"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#d8fcf6" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:text="에듀에코"
+                android:layout_weight="1"
+                android:background="#79fa55" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="모바일 프로그래밍"
+                android:background="#06fab5" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="모바일 프로그래밍"
+                android:background="#06fab5" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+
+                android:text="경영학원론"
+                android:background="#0d7bf7" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="경영학원론"
+                android:background="#0d7bf7" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="경영학원론"
+                android:background="#0d7bf7" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/third"
+            android:layout_width="60dp"
+            android:layout_height="550dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+
+            >
+            <TextView
+                android:text="화요일"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#d8fcf6" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="건축문화사"
+                android:background="#6014f7" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="건축문화사"
+                android:background="#6014f7" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="컴퓨터 그래픽스"
+                android:background="#bb05b2" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="컴퓨터 그래픽스"
+                android:background="#bb05b2" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="컴퓨터 그래픽스"
+                android:background="#bb05b2" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+
+                android:text="컴퓨터 그래픽스"
+                android:background="#bb05b2" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/four"
+            android:layout_width="60dp"
+            android:layout_height="550dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:text="수요일"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#d8fcf6" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="모바일 프로그래밍"
+                android:background="#06fab5" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="모바일 프로그래밍"
+                android:background="#06fab5" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="SW 산업세미나"
+                android:background="#fc3661" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="SW 산업세미나"
+                android:background="#fc3661" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="SW 산업세미나"
+                android:background="#fc3661" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/five"
+            android:layout_width="60dp"
+            android:layout_height="550dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:text="목요일"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#d8fcf6" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="졸업작품1"
+                android:background="#fc9003" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="졸업작품1"
+                android:background="#fc9003" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/six"
+            android:layout_width="60dp"
+            android:layout_height="550dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+
+            >
+            <TextView
+                android:text="금요일"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#d8fcf6" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="SW 공학론"
+                android:background="#0a9e25" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="SW 공학론"
+                android:background="#0a9e25" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
